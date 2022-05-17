@@ -1,17 +1,17 @@
-const {Client, Intents, Interaction} = require('discord.js')
+const {Client, Intents, Interaction, Message} = require('discord.js')
 const client = new Client({intents: [Intents.FLAGS.GUILDS]})
-require('dotenv').config
+require('dotenv').config()
 
 client.on('ready', () => {
     console.log('Bots ir gatavs lietošanai')
 })
 
-client.on('InteractionCreate', async Interaction => {
-    if(!Interaction.isCommend()) return;
+client.on('interactionCreate', async Interaction => {
+    if(!Interaction.isCommand()) return;
 
     if(Interaction.commandName == 'ping'){
-        await Interaction.reply('pong')
+        await Interaction.reply('Ej dirst')
     }
 })
 
-client.login('OTY1NjQ1NjExMDQ5MjkxODU3.GldLYs.UNSZtxf0ZalF7nEoNUO9os5E3qKdgMfRqJyMdM')
+client.login(process.env.TOKEN)
