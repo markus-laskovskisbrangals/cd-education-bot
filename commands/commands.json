@@ -1,0 +1,19 @@
+{
+    "commands": [
+        {
+            "name": "ping",
+            "description": "Komanda, lai pārbaudītu bota funkcionalitāti"
+        },
+
+        {
+            "name": "palidziba",
+            "description": "Komanda, kas izvada visas komandas un to ksiadrojumus" 
+        },
+
+        {
+            "name": "kvadratsakne",
+            "description": "Komanda, kas uzdod uzdevumu par kvadrātsakni"
+        }
+
+    ]
+}
