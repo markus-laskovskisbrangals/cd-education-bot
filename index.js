@@ -1,9 +1,8 @@
 const {Client, Intents, Interaction, Message, Collection} = require('discord.js')
-const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_REACTIONS, Intents.FLAGS.GUILD_MEMBERS]})
+const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_REACTIONS, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_VOICE_STATES]})
 require('dotenv').config()
 const fs = require('fs')
 const path = require('path')
-const Kvadratsakne = require('./commands/Kvadratsakne')
 
 client.commands = new Collection()
 const commandLocation = path.join(__dirname, 'commands')
