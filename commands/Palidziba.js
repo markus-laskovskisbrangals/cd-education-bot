@@ -1,10 +1,17 @@
+//Koda fails /palidziba komandai
+
+//Bibliotēku un moduļu importēšana
 const { SlashCommandBuilder } = require("@discordjs/builders")
 const { MessageEmbed } = require("discord.js")
 
+//Jauna moduļa izveide
 module.exports = {
+    //Jauna komandas objekta izveide
     data: new SlashCommandBuilder().setName('palidziba').setDescription('Komanda, lai pārliecinātos par bota darbību'),
     async execute(interaction){
+        //Mainīgajā tiek ielasīts lietotājs, kas izpildīja komandu
         const user = interaction.guild.members.cache.get(interaction.user.id)
+        //Jauna embed objekta izveide un parametru pievienošana
         const helpEmbed = new MessageEmbed()
             .setTitle(':information_source: Skolas asistenta instrukcija')
             .setDescription('Skolas asistents ir Discord bots, kas ir izstrādāts ar mērķi padarīt skolēniem mācīšanos Discord vidē aizraujošāku un interaktīvāku. Bots palīdz skolēniem un skolotājiem integrēt Discord savās mācību stundās piedāvājot dažādus interaktīvus uzdevumus, automātisku kanālu izveidi stundu pierakstiem un automātisku apmeklējumu reģistrēšanu. Botu izstrādāja Markus Ļaskovskis Brangals.')
@@ -22,7 +29,9 @@ module.exports = {
                 {name: '/stunda', value: 'Komanda **skolotājiem**, kas automātiski izveidot īslaicīgu teksta kanālu (thread), kurā var veikt pierakstus konkrētajai mācību stundai. Lietojums `/stunda [kanāla nosaukums (obligāts)]`.'}
             )
             .setColor('#1eaafc')
+        //Lietotājam privāti tiek nosūtīts bota apraksta un komandu saraksts
         user.send({embeds: [helpEmbed]}).catch(console.error)
+        //Paziņojums servera čatā par ziņas nosūtīšanu
         interaction.reply(':white_check_mark: Visas komandas un to skaidrojumi tika nosūtīti Jums privāti.')
     }
 }
