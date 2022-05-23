@@ -1,0 +1,51 @@
+[
+    {
+        "question": "Datorpele ir ievades ierīce.",
+        "answer": "yesOption"
+    },
+
+    {
+        "question": "Ethernet tīkla kabelis sastāv no 8 dzīslām.",
+        "answer": "yesOption"
+    },
+
+    {
+        "question": "Linux ir attēlu apstrādes lietotne.",
+        "answer": "noOption"
+    },
+
+    {
+        "question": "Jo jaudīgāks CPU, jo vairāk datu datorā var uzglabāt.",
+        "answer": "noOption"
+    },
+
+    {
+        "question": "Printeris ir ievades ierīce.",
+        "answer": "noOption"
+    },
+
+    {
+        "question": "214.21.103.89 ir pareizi sastādīta IP adrese.",
+        "answer": "yesOption"
+    },
+
+    {
+        "question": "Atvērtā koda programmatūru ir atļauts izplatīt neierobežotu skaitu reižu.",
+        "answer": "yesOption"
+    },
+
+    {
+        "question": "Microsoft Paint ir Windows operētājsistēmas versija.",
+        "answer": "noOption"
+    },
+
+    {
+        "question": "qwerty ir droša parole.",
+        "answer": "noOption"
+    },
+
+    {
+        "question": "HTML ir programmēšanas valoda.",
+        "answer": "noOption"
+    }
+]
