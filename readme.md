@@ -6,7 +6,7 @@ Skolas asistents ir Discord bots, kas ir izstrādāts ar mērķi padarīt skolē
 
 ## Bota uzstādīšana savā serverī
 
-* Piezīme: * ja jums vēl nav sava Discord servera, tad nospiediet [šeit](https://discord.new/UqmwrxqAyyGc) un tas tiks izbeidots automātiski.
+*Piezīme:* ja jums vēl nav sava Discord servera, tad nospiediet [šeit](https://discord.new/UqmwrxqAyyGc) un tas tiks izbeidots automātiski.
  
 1. Dodaties uz [Discord izstrādātāju protālu](https://discord.com/developers/applications) un izveidojiet jaunu lietotni.
 2. Jaunizveidotās lietotnes sadaļā "Bot", pieslēdzoiet lietotnei bota funkciju
