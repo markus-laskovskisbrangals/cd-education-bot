@@ -22,6 +22,6 @@ Skolas asistents ir Discord bots, kas ir izstrādāts ar mērķi padarīt skolē
 12. Komandu uzvednī ievadiet komandu `node command-handler.js`, lai reģistrētu komandas savā serverī
 13. Ievadiet komandu `node index.js`, lai startētu botu
 14. Dodaties uz serveri un ievadiet komandu `/ping`, ja viss ir izdarīts veiksmīgi, tad jūsu botam čatā būtu jānosūta ziņa, ka tas ir uzstādīts veiksmīgi
-15. Ar komandu `help` jūs varat apskatīt visas komandas, kuras piedāvā šis bots
+15. Ar komandu `/palidziba` jūs varat apskatīt visas komandas, kuras piedāvā šis bots
 
 Jaut;ajumu gadījumā sazinieties ar mani, sūtot man e-pastu uz markus.laskovskisbrangals@va.lv.
