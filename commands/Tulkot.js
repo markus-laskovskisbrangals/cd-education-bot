@@ -8,6 +8,7 @@ module.exports = {
     async execute(interaction){
         if(!interaction.options.get('teksts')){
             interaction.reply('Nepilnīga komanda! Pievieno tekstu, kuru vēlies tulkot!')
+            return
         }
         const URL = 'https://api-free.deepl.com/v2/translate?auth_key='
         const apiKey = process.env.DEEPL_API_KEY
